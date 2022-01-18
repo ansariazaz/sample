@@ -379,6 +379,9 @@ body {
   bottom: 190px;
   left: 50%;
   margin-left: -3px;
+  background: linear-gradient(
+    190deg, #C7C7C7 50%, #3f3f3f 50%);
+    
 }
 
 
@@ -405,6 +408,7 @@ body {
   top: 50px;
   border-radius: 50%;
   z-index: 1;
+  
 }
 
 
@@ -437,7 +441,7 @@ body {
   z-index: 1;
   right: 30px;
   border: medium solid rgb(190, 182, 182);
-  border-width: 10px 0 10px 10px;
+  border-width: 15px 0 15px 15px;
   border-color: transparent transparent transparent #2a2828;
 }
 
@@ -454,7 +458,7 @@ body {
   left: 30px;
   border: solid 3px rgb(12, 11, 11);
   /* border: medium solid rgb(190, 182, 182); */
-  border-width: 10px 10px 10px 0;
+  border-width: 15px 15px 15px 0;
   border-color: transparent #2a2828 transparent transparent;
 }
 
